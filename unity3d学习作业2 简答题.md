@@ -27,10 +27,10 @@
 		vy = _vy;
 		this.transform.position = new Vector3(x,y,0);
 	}
-	```
+```
 	
     - 2.利用transform.Translate
-    ```
+```
     void Update () {
 		vy -= g * Time.deltaTime;
 		this.transform.Translate(vy * Vector3.up,Space.World);
