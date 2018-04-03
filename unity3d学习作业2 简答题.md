@@ -35,7 +35,7 @@
 		this.transform.Translate(vy * Vector3.up,Space.World);
 		this.transform.Translate(vx * Vector3.right,Space.World);
 	}
-	```
+```
 	- 3.利用Vector3.MoveTowards
 ```
 void Update () {
