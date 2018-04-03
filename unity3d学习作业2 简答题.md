@@ -57,7 +57,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Rotate : MonoBehaviour {
-		public Transform Sun;
+    public Transform Sun;
     public Transform Mercury;
     public Transform Venus;
     public Transform Earth;
@@ -66,7 +66,7 @@ public class Rotate : MonoBehaviour {
     public Transform Saturn;
     public Transform Uranus;
     public Transform Neptunia;
-		private int fullAngel = 360;
+    private int fullAngel = 360;
 	// Use this for initialization
 	void Start () {
 				Sun.position = Vector3.zero;
