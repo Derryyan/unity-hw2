@@ -9,7 +9,7 @@
  - 请用三种方法以上方法，实现物体的抛物线运动。（如，修改Transform属性，使用向量Vector3的方法…）
     - 1.修改transform
  ```
-    - public class paowu : MonoBehaviour {
+     public class paowu : MonoBehaviour {
 	float g = 9.8F;
 	float vx = 35F;
 	float vy = 35F;
